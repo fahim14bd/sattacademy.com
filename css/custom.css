@@ -1,0 +1,62 @@
+@font-face {
+    font-family: Satt;
+    src: url(../fonts/webfonts/SutonnyOMJ.ttf);
+}
+
+@font-face {
+    font-family: fontawsome;
+    src: url(../fonts/webfonts/fa-solid-900.ttf);
+}
+
+
+@media screen and (max-width:900px) {
+    .h3{
+       font-size: 22px;
+    }
+    .head span{font-size: 18px; }
+}
+
+@media screen and (max-width:480px) {
+    .h3{
+       font-size: 16px;
+    }
+    .head span{
+        font-size: 18px;
+    }
+    
+    .footer-title{ 
+        font-size: 28px;
+    }
+    
+   .footer ul li a{ 
+        font-size: 14px;
+    }
+    
+    .navbar-nav{
+        width: 50%;
+    }
+    
+    .navbar-brand img{ margin:6px 0;}
+    
+	.footer .quick-lick {
+		margin-left: 4rem!important;
+	}
+	
+	.footer-2 .extra ul {
+		margin: 0;
+		padding: 0;
+	}
+	
+	.footer-2 .extra ul li {
+		float: none;
+		text-align: center;
+		padding-top: 1em;
+	}
+    
+    .service .serv-2 {
+        margin-top: 0;
+    }
+    
+}
+
+
